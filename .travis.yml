@@ -18,8 +18,8 @@ deploy:
   secret_access_key:
     secure: "$SECRETACCESSKEY"
   region: "us-east-1"  
-  app: "elastic-beanstalk-tutorial"
-  env: "elastic-beanstalk-tutorial-dev"
+  app: "Docker"
+  env: "Docker-env-1"
   bucket_name: "elasticbeanstalk-us-east-1-380574440275"
   on:
     branch: master
